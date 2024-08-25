@@ -8,7 +8,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-   <Duel/>
+   <div className="App">
+    <div className="title">Duel Game</div>
+
+    <Duel/>
+   </div>
   )
 }
 
